@@ -5,7 +5,6 @@ To run with any 32bit DXVK-compatible (Vulkan-supporting) Source engine game, us
 Use nine_sdl64.so for 64bit titles (CS:GO).
 
 For Portal 2 (as of November 2021), add `NINE_VHACKS=1`.
-For TF2 you need to use OpenGL renderer, otherwise game will fail to initialize: `LD_PRELOAD=/path/to/nine_sdl64.so ./tf_linux64 -game tf -steam -gl`.
 
 To use a custom nine build, set `D3D_MODULE_PATH=/path/to/d3dadapter9.so`.
 
